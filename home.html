@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
     <title>codecrew</title>
 </head>
 <body>
      <nav class="navbar">
        <ul class="nav-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#about" id="about-link">About</a></li>
         <li><a href="#">Courses</a></li>
         <li><a href="#">Reigonal Centers</a></li>
         <li><a href="#">Staff</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Login</a></li>
        </ul>
     </nav>
 
     <section>
         <img src="/Assests/cover.jpeg" alt="cover" class="img-cover">
     </section>
+
+    <div class="sign-up">
+        <h1>New To CodeCrew?</h1>
+        <button>Sign Up</button>
+    </div>
+
 
     <section>
       <div class="container-options">
@@ -83,5 +90,101 @@
     </p>
   </div>
 </section>
+
+<section class="section" id="section--3">
+    <div class="header-slide">
+        <h1>Transforming Dreams Into Skills</h1>
+    </div>
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <address class="testimonial__author">
+              <img src="/Assests/slide-1.jpeg" alt="" class="testimonial__photo" />
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <address class="testimonial__author">
+              <img src="Assests/slide-2.jpeg" alt="" class="testimonial__photo" />
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            
+            <address class="testimonial__author">
+              <img src="Assests/slide-3.jpeg" alt="" class="testimonial__photo" />
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+  <div class="footer-brand">
+    <h2>CodeCrew Digital Academy</h2>
+    <p>Empowering students with skills for the digital future.</p>
+  </div>
+
+  <div class="container">
+    <div class="footer-section">
+      <h3>Academics</h3>
+      <ul>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Departments</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Admissions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Student Services</a></li>
+        <li><a href="#">Library</a></li>
+        <li><a href="#">Campus Resources</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li><a href="mailto:info@codecrewacademy.com">info@codecrewacademy.com</a></li>
+        <li><a href="tel:+94738756343">+94 738 756 343</a></li>
+        <li><a href="#">Visit Campus</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 CodeCrew Digital Academy. All rights reserved.</p>
+  </div>
+</footer>
+
 
 </html>
