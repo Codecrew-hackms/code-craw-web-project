@@ -5,10 +5,13 @@
     font-family: Arial, sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: #f4f6f8;
 }
-
 
 .navbar {
     background-color: #0b4082;
@@ -46,7 +49,7 @@ body {
 
 .hero {
     text-align: center;
-    padding: 80px 20px;
+    padding: 120px 20px;
 }
 
 .hero h1 {
@@ -78,4 +81,80 @@ body {
 
 .course-section li {
     margin: 10px 0;
+}
+
+/*Footer*/
+.footer {
+  width: calc(100% + 4rem);
+  background-color: #0d1b2a; 
+  margin-top: 5rem;
+  color: #ffffff;
+  padding: 4rem 2rem 2rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+
+.footer a:hover {
+  color: #8d8c8a; 
+}
+
+.footer-brand {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.footer-brand h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+  font-size: 1rem;
+  color: #cfd8dc;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffb400; 
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+    font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #22303c;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #cfd8dc;
 }

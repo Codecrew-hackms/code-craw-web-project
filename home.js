@@ -73,14 +73,31 @@ dotContainer.addEventListener('click', function(e) {
   }
 });
 
-//scroll
-const aboutLink = document.querySelector('#about-link');
-const footer = document.querySelector('#footer');
+const btnComp = document.querySelector('.btn-computing');
+const btnEng = document.querySelector('.btn-engineering');
+const btnBs = document.querySelector('.btn-btnBs');
+const btnTech = document.querySelector('.btn-btnTech');
 
-aboutLink.addEventListener('click', function (e) {
-  e.preventDefault();
+btnComp.addEventListener('click', function(e) {
+    e.preventDefault();
 
-  footer.scrollIntoView({
-    behavior: 'smooth'
-  });
+    window.location.href = "computing.html";
+});
+
+btnEng.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    window.location.href = "Engineering.html";
+});
+
+btnBs.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    window.location.href = "computing.html";
+});
+
+btnTech.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    window.location.href = "computing.html";
 });
