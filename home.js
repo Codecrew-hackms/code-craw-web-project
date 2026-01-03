@@ -93,11 +93,11 @@ btnEng.addEventListener('click', function(e) {
 btnBs.addEventListener('click', function(e) {
     e.preventDefault();
 
-    window.location.href = "computing.html";
+    window.location.href = "Business.html";
 });
 
 btnTech.addEventListener('click', function(e) {
     e.preventDefault();
 
-    window.location.href = "computing.html";
+    window.location.href = "Technology.html";
 });
