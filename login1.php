@@ -10,7 +10,8 @@ if (isset($_POST['login'])) {
     $stmt = $conn->prepare("SELECT id, name, role, password FROM users WHERE email = ?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
-    $result = $stmt->get_result();
+    $result = $stmt->get_result(); 
+
 
     if ($row = $result->fetch_assoc()) {
         
